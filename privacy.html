@@ -1,0 +1,37 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>VideoFactory Privacy</title><link rel="stylesheet" href="style.css"></head><body><main>
+<nav><a href="./">Home</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms of Service</a></nav>
+<h1>Privacy Policy</h1>
+<p class="mut">Last updated: 11 November 2026</p>
+<p>VideoFactory ("the app") is a desktop application that runs locally on its owner's computer. It is not a web service and
+has no servers of its own. This policy explains what data the app accesses and what it does with it.</p>
+
+<h2>YouTube API Services</h2>
+<p>The app uses YouTube API Services. By connecting a YouTube channel you agree to the
+<a href="https://www.youtube.com/t/terms">YouTube Terms of Service</a>, and Google's handling of your data is governed by the
+<a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>Data the app accesses</h2>
+<ul>
+<li><b>Google account authorization</b> (OAuth tokens) for the YouTube channels the owner chooses to connect. Scopes are used only to upload videos, set thumbnails, and read the connected channel's name and ID.</li>
+<li><b>Public YouTube data</b>: search results and public statistics (titles, view counts, publish dates, channel subscriber counts) used to suggest video topics.</li>
+</ul>
+
+<h2>How data is used and stored</h2>
+<ul>
+<li>All data is stored only on the owner's own computer. OAuth tokens are stored encrypted with a key kept in the macOS Keychain.</li>
+<li>The app does not collect, sell, or share personal data, and sends nothing to the developer.</li>
+<li>Data is sent to Google/YouTube only to perform actions the owner requests (uploading a video, setting a thumbnail, reading statistics).</li>
+<li>To generate original video ideas and scripts, the app may send text prompts — including public video titles from YouTube search results — to the AI service the owner has configured. No OAuth tokens or private account data are sent to AI services.</li>
+<li>Public YouTube statistics are cached locally for at most 30 days and then refreshed or deleted.</li>
+<li>No cookies or tracking technologies are used, and no data from other users is collected.</li>
+</ul>
+
+<h2>Revoking access and deleting data</h2>
+<p>You can revoke the app's access to your Google account at any time at
+<a href="https://security.google.com/settings/security/permissions">Google security settings</a>.
+Disconnecting a channel inside the app, or deleting the app's data folder (<code>~/VideoFactory</code>), permanently removes all stored tokens and data.</p>
+
+<h2>Contact</h2>
+<p>Questions about this policy: <a href="https://github.com/Toolhuongnoi/videofactory/issues">open an issue on GitHub</a>.</p>
+</main></body></html>
